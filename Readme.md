@@ -1,4 +1,4 @@
-
+<HTML>
     <head> 
         <title>Read Only by HTML5 UP</title>         
         <meta charset="utf-8"/> 
@@ -494,4 +494,4 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <script src="assets/js/util.js"></script>         
         <script src="assets/js/main.js"></script>         
     </body>     
-
+</HTML>
