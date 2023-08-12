@@ -1,5 +1,5 @@
 <HTML>
-    <head>          
+    <head>   <title>Portifolio</title>       
         <meta charset="utf-8"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/> 
         <link rel="stylesheet" href="https://rr.meineautomatichaus.de/assets/css/main.css"/> 
