@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<HTML>
+<html>
     <head>
         <title>Romulo Reuwsaat - Portifolio</title>         
         <meta charset="utf-8"/> 
@@ -496,4 +496,4 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <script src="https://rr.meineautomatichaus.de/assets/js/util.js"></script>         
         <script src="https://rr.meineautomatichaus.de/assets/js/main.js"></script>         
     </body>     
-</HTML>
+</html>
