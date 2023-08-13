@@ -1,6 +1,8 @@
-<head>
-        <title>Romulo Reuwsaat - Portifolio</title>         
-        <meta charset="utf-8"/> 
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/> 
-        <link rel="stylesheet" href="https://rr.meineautomatichaus.de/assets/css/main.css"/> 
-    </head>
+title: Romulo Reuwsaat - Portifolio
+url: 'https://rr.meineautomatichaus.de/'
+charset: utf-8
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv' 
+style: https://rr.meineautomatichaus.de/assets/css/main.css
+description: A beautiful Jekyll theme for creating resume
