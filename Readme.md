@@ -1,9 +1,14 @@
-<!DOCTYPE HTML>
 <html>
-    <body class="is-preload"> 
+	<head> 
+        <title>Romulo Reuwsaat -Portifolio</title>         
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/> 
+        <link rel="stylesheet" href="assets/css/main.css"/> 
+    </head>     
+ 	<body class="is-preload"> 
         <!-- Header -->         
         <section id="header"> 
-            <header> <span class="image avatar"><img src="https://rr.meineautomatichaus.de/images/avatar.jpg" alt=""/></span> 
+            <header> <span class="image avatar"><img src="images/avatar.jpg" alt=""/></span> 
                 <h1 id="logo"><a href="#">Rômulo Reuwsaat</a></h1> 
                 <p>Uma breve listagem de projetos relevantes e experiências guiadas pelo meu conhecimento.</p> 
             </header>             
