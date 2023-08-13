@@ -1,13 +1,15 @@
-<HTML>
-    <head>   <title>Portifolio</title>       
+    <html> 
+    <head> 
+        <title>Romulo Reuwsaat - Portifolio</title>         
         <meta charset="utf-8"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/> 
         <link rel="stylesheet" href="https://rr.meineautomatichaus.de/assets/css/main.css"/> 
     </head>     
+
     <body class="is-preload"> 
         <!-- Header -->         
         <section id="header"> 
-            <header> <span class="image avatar"><img src="images/avatar.jpg" alt=""/></span> 
+            <header> <span class="image avatar"><img src="https://rr.meineautomatichaus.de/images/avatar.jpg" alt=""/></span> 
                 <h1 id="logo"><a href="#">Rômulo Reuwsaat</a></h1> 
                 <p>Uma breve listagem de projetos relevantes e experiências guiadas pelo meu conhecimento.</p> 
             </header>             
@@ -485,12 +487,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
             </section>             
         </div>         
         <!-- Scripts -->         
-        <script src="assets/js/jquery.min.js"></script>         
-        <script src="assets/js/jquery.scrollex.min.js"></script>         
-        <script src="assets/js/jquery.scrolly.min.js"></script>         
-        <script src="assets/js/browser.min.js"></script>         
-        <script src="assets/js/breakpoints.min.js"></script>         
-        <script src="assets/js/util.js"></script>         
-        <script src="assets/js/main.js"></script>         
+        <script src="https://rr.meineautomatichaus.de/assets/js/jquery.min.js"></script>         
+        <script src="https://rr.meineautomatichaus.de/assets/js/jquery.scrollex.min.js"></script>         
+        <script src="https://rr.meineautomatichaus.de/assets/js/jquery.scrolly.min.js"></script>         
+        <script src="https://rr.meineautomatichaus.de/assets/js/browser.min.js"></script>         
+        <script src="https://rr.meineautomatichaus.de/assets/js/breakpoints.min.js"></script>         
+        <script src="https://rr.meineautomatichaus.de/assets/js/util.js"></script>         
+        <script src="https://rr.meineautomatichaus.de/assets/js/main.js"></script>         
     </body>     
-</HTML>
+</html>
