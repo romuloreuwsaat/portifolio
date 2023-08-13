@@ -74,8 +74,8 @@
 Foi proposta a utilização de linhas(Troncos) SIP,  de imediato foram propostas as vantagens da presença regional de números telefônicos, uma central telefônica asterisk para disponibilizar o serviço necessário, bem como a instalação de gateway de voz na empresa para entrega dos serviços aos ramais(sem fio).
 Solução sob virtualização em um servidor para facilitar backup, monitorramento e gerenciamento.<br><br>&nbsp;Tempo de desenvolvimento e entrega:<br>1 mês<br><br>Tecnologias utilizadas:<br>- SIP, Asterisk<br>- Virtualização, XenServer 7.5<br>- Monitoramento, Zabbix<br>- Gateway VoIP, Otimização de bibliotecas DTMF para melhorias de padrão callerID Khomp<br>- Linux, Sistema Operacional CentOS 7.8<br>- PSTN, Troncos SIP geograficamente distribuídos DirectCall</p> 
                         <ul class="feature-icons"> 
-                            <li class="icon solid fa-linux">Write all the co</de</li>                             
-                            <li class="icon solid fa-cubes">Stack small boxes</li>                             
+                            <li class="icon brands fa-linux">CentOS Linux</de</li>                             
+                            <li class="icon solid fa-asterisk">Asterisk</li>                             
                             <li class="icon solid fa-book">Read books and stuff</li>                             
                             <li class="icon solid fa-coffee">Drink much coffee</li>                             
                             <li class="icon solid fa-bolt">Lightning bolt</li>                             
