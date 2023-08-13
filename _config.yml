@@ -3,6 +3,6 @@ url: 'https://rr.meineautomatichaus.de'
 charset: utf-8
 #change it according to your repository name
 # disabling since we are using a custom domain
-baseurl: '/portifolio' 
+baseurl: '/' 
 style: https://rr.meineautomatichaus.de/assets/css/main.css
 description: A beautiful Jekyll theme for creating resume
