@@ -1,6 +1,6 @@
 {% include head.html %}
 <html>
-    <head>        
+	<head>        
         <meta charset="utf-8"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/> 
         <link rel="stylesheet" href="/assets/css/main.css"/> 
@@ -9,14 +9,15 @@
         <section id="header"> 
             <header> <span class="image avatar"><img src="/images/avatar.jpg" alt=""/></span> 
                 <h1 id="logo"><a href="#">Rômulo Reuwsaat</a></h1> 
-                <p>Uma breve listagem de projetos relevantes e experiências guiadas pelo meu conhecimento.</p> 
+                <p>Portfólio de projetos e experiências em infraestrutura de TI, automação e sistemas críticos.</p> 
             </header>             
             <nav id="nav"> 
                 <ul> 
                     <li><a href="#one" class="active">Resumo</a></li>                     
-                    <li><a href="#two">Infraestrutura & NOC</a></li>                     
-                    <li><a href="#three">Automação & IoT</a></li>                     
-                    <li><a href="#four">Telecom & Segurança</a></li>                     
+                    <li><a href="#infrastructure">Infraestrutura & NOC</a></li>                     
+                    <li><a href="#automation">Automação & IoT</a></li>                     
+                    <li><a href="#telecom">Telecom & Segurança</a></li>                     
+                    <li><a href="#media">Cloud & Media</a></li>                     
                     <li><a href="#contact">Contato</a></li>                     
                 </ul>                 
             </nav>             
@@ -38,102 +39,185 @@
                     <div class="container"> 
                         <header class="major"> 
                             <h2>Portfólio</h2> 
-                            <p>Explicando sobre alguns dos projetos que domino</p> 
+                            <p>Exposição de competências técnicas através de casos de uso reais.</p> 
                         </header>                         
-                        <p>Esta lista é dedicada a descrever experiências por meio de casos de uso de necessidades reconhecidas em diversas empresas que trabalhei, os quais usarei para expor minhas competências e conhecimento técnico em prática.</p> 
+                        <p>Esta lista detalha projetos implementados para sanar necessidades críticas em diversas empresas, unindo monitoramento, alta disponibilidade e automação personalizada.</p> 
                     </div>                     
                 </section>                 
 
-                <section id="two"> 
+                <section id="infrastructure"> 
                     <div class="container"> 
-                        <h3>Infraestrutura, Cloud & Monitoramento</h3> 
+                        <h3>Infraestrutura & NOC</h3> 
                         <div class="features">
                             <article>
                                 <div class="inner">
-                                    <h4>NOC & Observabilidade</h4>
-                                    <p>Implementação de dashboards <b>Grafana + Zabbix</b> para monitoramento em tempo real.</p>
+                                    <h4>NOC - Central de Monitoramento</h4>
+                                    <p>Integração de recursos de TI com dashboards modernos e alertas via Telegram/E-mail.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-chart-line">Grafana, Zabbix</li>
+                                        <li class="icon solid fa-database">MySQL, JSON</li>
+                                    </ul>
                                 </div>
                             </article>
                             <article>
                                 <div class="inner">
-                                    <h4>Backup & Continuidade (Veeam)</h4>
-                                    <p>Implementação de <b>Veeam</b> com volumes NFS, imutabilidade e gestão de Tapes.</p>
+                                    <h4>Rancher Farm</h4>
+                                    <p>Gestão e orquestramento de containers em farm redundante com alta disponibilidade.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon brands fa-docker">Docker, K8s</li>
+                                        <li class="icon solid fa-server">Rancher, Suse Linux</li>
+                                    </ul>
                                 </div>
                             </article>
                             <article>
                                 <div class="inner">
-                                    <h4>Virtualização & Containers</h4>
-                                    <p>Gestão com <b>Rancher</b> para orquestração e <b>Nextcloud</b> para storage privado.</p>
-                                </div>
-                            </article>
-                            <article>
-                                <div class="inner">
-                                    <h4>Storage & NVR</h4>
-                                    <p>Servidor de NVR virtualizado com <b>Frigate</b> e armazenamento via RTSP.</p>
+                                    <h4>Veeam - Backup & Imutabilidade</h4>
+                                    <p>Implementação de backup em volumes iSCSI/NFS com políticas de retenção e Tapes.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-shield-alt">Imutabilidade</li>
+                                        <li class="icon solid fa-save">iSCSI, NFS, Tapes</li>
+                                    </ul>
                                 </div>
                             </article>
                         </div>
                     </div>                     
                 </section>                 
 
-                <section id="three"> 
+                <section id="automation"> 
                     <div class="container"> 
                         <h3>Automação & IoT</h3> 
                         <div class="features">
                             <article>
                                 <div class="inner">
-                                    <h4>SBC & Termometria</h4>
-                                    <p>Coleta de temperaturas e status web usando <b>Raspberry Pi</b> e sensores.</p>
+                                    <h4>DASP - Acesso Seguro Pendrives</h4>
+                                    <p>Central unificada de controle e formatação de pendrives (xFAT, vFAT) via Raspberry.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon brands fa-linux">Linux, Raspberry</li>
+                                        <li class="icon solid fa-key">LDAP, AD, Python</li>
+                                    </ul>
                                 </div>
                             </article>
                             <article>
                                 <div class="inner">
-                                    <h4>Automações PowerShell</h4>
-                                    <p>Gestão de agentes, portais web e personalização de wallpapers corporativos.</p>
+                                    <h4>Telemetria & Termometria</h4>
+                                    <p>Captura de dados de Nobreaks (Nuts/SNMP) e sensores de temperatura em Datacenters.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-bolt">Nuts, UPS, SNMP</li>
+                                        <li class="icon solid fa-thermometer-half">IoT, WebServers</li>
+                                    </ul>
                                 </div>
                             </article>
                             <article>
                                 <div class="inner">
-                                    <h4>Sistemas de Pesagem</h4>
-                                    <p>Integração e coleta de peso em balanças rodoviárias para logística.</p>
+                                    <h4>Sistema de Pesagem Rodoviária</h4>
+                                    <p>Coleta via RS-232 com filtros Regex para garantir a integridade dos dados de balanças.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-balance-scale">IoT, API</li>
+                                        <li class="icon solid fa-code">Python, Stream Data</li>
+                                    </ul>
                                 </div>
                             </article>
                             <article>
                                 <div class="inner">
-                                    <h4>Mobilidade & MDM</h4>
-                                    <p>Implementação de gestão de dispositivos móveis com <b>Pulsus MDM</b>.</p>
+                                    <h4>Sinalização Interna IoT</h4>
+                                    <p>Dispositivos para exibição de campanhas, previsão do tempo e integração Instagram.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-tv">Chromium, API</li>
+                                        <li class="icon brands fa-instagram">Instagram, Python</li>
+                                    </ul>
                                 </div>
                             </article>
                         </div>
                     </div>                     
                 </section>                 
 
-                <section id="four">
+                <section id="telecom"> 
+                    <div class="container"> 
+                        <h3>Telecomunicações & Segurança</h3> 
+                        <div class="features">
+                            <article>
+                                <div class="inner">
+                                    <h4>PABX Asterisk & WhatsApp</h4>
+                                    <p>Central SIP com URAs, campanhas e implementação de fluxos Omnichannel via Meta API.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-phone">SIP, Asterisk</li>
+                                        <li class="icon brands fa-whatsapp">Meta API, Omnichanel</li>
+                                    </ul>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <h4>Segurança de Rede & Firewall</h4>
+                                    <p>Implementação de Cloudflare Tunnels e Captive Portal (OpnSense) integrado ao AD.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-user-shield">Cloudflare, Docker</li>
+                                        <li class="icon solid fa-network-wired">OpnSense, API</li>
+                                    </ul>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <h4>SafeVault & FAV</h4>
+                                    <p>Cofre de senhas e portal de favoritos setorizado com foco em conformidade LGPD.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-lock">SafeVault, PHP</li>
+                                        <li class="icon solid fa-folder">MySQL, JS, LGPD</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>                     
+                </section>
+
+                <section id="media">
                     <div class="container">
-                        <h3>Telecomunicações, Segurança & Media</h3>
-                        <p>Soluções críticas de comunicação e proteção de dados.</p>
-                        <ul class="feature-icons">
-                            <li class="icon solid fa-phone">PABX Asterisk & SIP</li>
-                            <li class="icon solid fa-shield-alt">Firewall & Captive Portal</li>
-                            <li class="icon solid fa-lock">SafeVault & Segurança Web</li>
-                            <li class="icon solid fa-broadcast-tower">Icecast Audio Streaming</li>
-                            <li class="icon brands fa-whatsapp">WhatsApp Corporativo</li>
-                            <li class="icon solid fa-tv">Sinalização Interna & Web</li>
-                        </ul>
+                        <h3>Cloud Storage & Media Streaming</h3>
+                        <div class="features">
+                            <article>
+                                <div class="inner">
+                                    <h4>Cloud Storage & NVR Virtual</h4>
+                                    <p>Nextcloud para arquivos e Frigate para NVR com captura RTSP e máscaras de área.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-cloud">Nextcloud, Docker</li>
+                                        <li class="icon solid fa-video">Frigate, RTSP</li>
+                                    </ul>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <h4>Streaming de Áudio & Vídeo</h4>
+                                    <p>Servidores Jellyfin (GPU Passthrough) e Icecast para audio marketing corporativo.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-film">Jellyfin, Codec</li>
+                                        <li class="icon solid fa-broadcast-tower">Icecast, MP3</li>
+                                    </ul>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="inner">
+                                    <h4>Implementação Pulsus MDM</h4>
+                                    <p>Gestão de endpoints Android, rastreamento GPS e políticas de uso gerenciais.</p>
+                                    <ul class="feature-icons">
+                                        <li class="icon solid fa-mobile-alt">MDM, Android</li>
+                                        <li class="icon solid fa-map-marker-alt">GPS, API</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
                     </div>
                 </section>
 
                 <section id="contact"> 
                     <div class="container"> 
-                        <h3>Contact Me</h3> 
+                        <h3>Contato</h3> 
                         <form method="post" action="#"> 
                             <div class="row gtr-uniform"> 
-                                <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name"/></div>                                 
+                                <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nome"/></div>                                 
                                 <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email"/></div>                                 
-                                <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>                                 
+                                <div class="col-12"><textarea name="message" id="message" placeholder="Mensagem" rows="6"></textarea></div>                                 
                                 <div class="col-12"> 
                                     <ul class="actions"> 
-                                        <li><input type="submit" class="primary" value="Send Message"/></li>                                         
+                                        <li><input type="submit" class="primary" value="Enviar Mensagem"/></li>                                         
                                     </ul>                                     
                                 </div>                                 
                             </div>                             
