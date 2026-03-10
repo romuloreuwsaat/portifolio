@@ -207,46 +207,80 @@
                     </div>
                 </section>
 
-                <section id="contact"> 
-                    <div class="container"> 
-                        <h3>Contato</h3> 
-                        <form method="post" action="#"> 
-                            <div class="row gtr-uniform"> 
-                                <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nome"/></div>                                 
-                                <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email"/></div>                                 
-                                <div class="col-12"><textarea name="message" id="message" placeholder="Mensagem" rows="6"></textarea></div>                                 
-                                <div class="col-12"> 
-                                    <ul class="actions"> 
-                                        <li><input type="submit" class="primary" value="Enviar Mensagem"/></li>                                         
-                                    </ul>                                     
-                                </div>                                 
-                            </div>                             
-                        </form>                         
-                    </div>                     
-                </section>                 
-
-            </div>             
-
-            <section id="footer"> 
+               <section id="contact"> 
                 <div class="container"> 
-                    <ul class="copyright"> 
-                        <li>&copy; Rômulo Reuwsaat. All rights reserved.</li>
-                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>                         
-                    </ul>                     
-                </div>                 
-            </section>             
-        </div>         
+                    <h3>Contato</h3> 
+                    <form id="contact-form"> 
+                        <div class="row gtr-uniform"> 
+                            <div class="col-6 col-12-xsmall">
+                                <input type="text" name="from_name" id="name" placeholder="Nome" required/>
+                            </div>                                   
+                            <div class="col-6 col-12-xsmall">
+                                <input type="email" name="reply_to" id="email" placeholder="Email" required/>
+                            </div>                                   
+                            <div class="col-12">
+                                <textarea name="message" id="message" placeholder="Mensagem" rows="6" required></textarea>
+                            </div>                                   
+                            <div class="col-12"> 
+                                <ul class="actions"> 
+                                    <li><input type="submit" id="button" class="primary" value="Enviar Mensagem"/></li>                                           
+                                </ul>                                       
+                            </div>                                   
+                        </div>                               
+                    </form>                          
+                </div>                      
+            </section>                  
 
-        <script src="https://rr.meineautomatichaus.de/assets/js/jquery.min.js"></script>         
-        <script src="https://rr.meineautomatichaus.de/assets/js/jquery.scrollex.min.js"></script>         
-        <script src="https://rr.meineautomatichaus.de/assets/js/jquery.scrolly.min.js"></script>         
-        <script src="https://rr.meineautomatichaus.de/assets/js/browser.min.js"></script>         
-        <script src="https://rr.meineautomatichaus.de/assets/js/breakpoints.min.js"></script>         
-        <script src="https://rr.meineautomatichaus.de/assets/js/util.js"></script>         
-        <script src="https://rr.meineautomatichaus.de/assets/js/main.js"></script>         
-    </body>     
+        </div>              
+
+        <section id="footer"> 
+            <div class="container"> 
+                <ul class="copyright"> 
+                    <li>&copy; Rômulo Reuwsaat. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>                          
+                </ul>                      
+            </div>                  
+        </section>              
+    </div>          
+
+    <script src="https://rr.meineautomatichaus.de/assets/js/jquery.min.js"></script>          
+    <script src="https://rr.meineautomatichaus.de/assets/js/jquery.scrollex.min.js"></script>          
+    <script src="https://rr.meineautomatichaus.de/assets/js/jquery.scrolly.min.js"></script>          
+    <script src="https://rr.meineautomatichaus.de/assets/js/browser.min.js"></script>          
+    <script src="https://rr.meineautomatichaus.de/assets/js/breakpoints.min.js"></script>          
+    <script src="https://rr.meineautomatichaus.de/assets/js/util.js"></script>          
+    <script src="https://rr.meineautomatichaus.de/assets/js/main.js"></script>          
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+          // Substitua pelo seu Public Key do EmailJS
+          emailjs.init("SUA_PUBLIC_KEY");
+      })();
+
+      const btn = document.getElementById('button');
+
+      document.getElementById('contact-form')
+       .addEventListener('submit', function(event) {
+         event.preventDefault();
+
+         btn.value = 'Enviando...';
+
+         const serviceID = 'default_service';
+         const templateID = 'template_id'; // Substitua pelo ID do seu template
+
+         emailjs.sendForm(serviceID, templateID, this)
+          .then(() => {
+            btn.value = 'Enviar Mensagem';
+            alert('Mensagem enviada com sucesso!');
+            this.reset();
+          }, (err) => {
+            btn.value = 'Enviar Mensagem';
+            alert('Erro ao enviar: ' + JSON.stringify(err));
+          });
+      });
+    </script>
+</body>
 </html>
-
-
 
 
