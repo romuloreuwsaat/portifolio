@@ -72,7 +72,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>Veeam - Backup & Imutabilidade</h4>
-                                    <p>Implementação de backup em volumes iSCSI/NFS com políticas de retenção e Tapes.</p>
+                                    <p>Implementação de backup em volumes iSCSI/NFS, Tapes, imutabilidade e políticas de retenção.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-shield-alt">Imutabilidade</li>
                                         <li class="icon solid fa-save">iSCSI, NFS, Tapes</li>
@@ -246,3 +246,4 @@
         <script src="https://rr.meineautomatichaus.de/assets/js/main.js"></script>         
     </body>     
 </html>
+
