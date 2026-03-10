@@ -112,7 +112,7 @@
                                     <h4>Sistema de Pesagem Rodoviária</h4>
                                     <p>Coleta via RS-232 com filtros Regex para garantir a integridade dos dados de balanças.</p>
                                     <ul class="feature-icons">
-                                        <li class="icon fa-brands fa-raspberry-pi">IoT, API</li>
+                                        <li class="fa-brands fa-raspberry-pi">IoT, API</li>
                                         <li class="icon solid fa-code">Python, Stream Data</li>
                                     </ul>
                                 </div>
@@ -246,5 +246,6 @@
         <script src="https://rr.meineautomatichaus.de/assets/js/main.js"></script>         
     </body>     
 </html>
+
 
 
