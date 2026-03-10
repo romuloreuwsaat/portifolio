@@ -255,7 +255,7 @@
     <script type="text/javascript">
       (function() {
           // Substitua pelo seu Public Key do EmailJS
-          emailjs.init("SUA_PUBLIC_KEY");
+          emailjs.init("VlmQWkmDNbSyBtIbz");
       })();
 
       const btn = document.getElementById('button');
@@ -266,8 +266,8 @@
 
          btn.value = 'Enviando...';
 
-         const serviceID = 'default_service';
-         const templateID = 'template_id'; // Substitua pelo ID do seu template
+         const serviceID = 'service_p7twbbq';
+         const templateID = 'template_syb7ork'; // Substitua pelo ID do seu template
 
          emailjs.sendForm(serviceID, templateID, this)
           .then(() => {
@@ -282,5 +282,6 @@
     </script>
 </body>
 </html>
+
 
 
