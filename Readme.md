@@ -52,7 +52,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>NOC - Central de Monitoramento</h4>
-                                    <p>Integração de recursos de TI com dashboards modernos e alertas via Telegram/E-mail.</p>
+                                    <p>Implementação de NOC, integração de recursos de TI com dashboards modernos e alertas via Telegram/E-mail.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-chart-line">Grafana, Zabbix</li>
                                         <li class="icon solid fa-database">MySQL, JSON</li>
@@ -62,7 +62,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>Rancher Farm</h4>
-                                    <p>Gestão e orquestramento de containers em farm redundante com alta disponibilidade.</p>
+                                    <p>Implementação de ecossistema Rancher, gestão e orquestramento de containers em farm redundante com alta disponibilidade.</p>
                                     <ul class="feature-icons">
                                         <li class="icon brands fa-docker">Docker, K8s</li>
                                         <li class="icon solid fa-server">Rancher, Suse Linux</li>
@@ -72,7 +72,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>Veeam - Backup & Imutabilidade</h4>
-                                    <p>Implementação de backup em volumes iSCSI/NFS, Tapes, imutabilidade e políticas de retenção.</p>
+                                    <p>Implementação de solução de backup em volumes iSCSI/NFS(imutabilidade) e Tape Library com definições das políticas de retenção.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-shield-alt">Imutabilidade</li>
                                         <li class="icon solid fa-save">iSCSI, NFS, Tapes</li>
@@ -90,7 +90,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>DASP - Acesso Seguro Pendrives</h4>
-                                    <p>Central unificada de controle e formatação de pendrives (xFAT, vFAT) via Raspberry.</p>
+                                    <p>Central unificada de controle e formatação de pendrives (xFAT, vFAT) via Raspberry, solução isolada da infraestrutura de rede interna para fins de segurança e prevenção de infecções.</p>
                                     <ul class="feature-icons">
                                         <li class="icon brands fa-linux">Linux, Raspberry</li>
                                         <li class="icon solid fa-key">LDAP, AD, Python</li>
@@ -110,7 +110,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>Sistema de Pesagem Rodoviária</h4>
-                                    <p>Coleta via RS-232 com filtros Regex para garantir a integridade dos dados de balanças.</p>
+                                    <p>Desenvolvimento de solução de coleta via RS-232 de stream de dados, utilizando avançados filtros regex em python para garantir a integridade, estabilidade e disponibilidade do serviço de coleta de peso de cargas.</p>
                                     <ul class="feature-icons">
                                         <li class="icon brands fa-raspberry-pi">IoT, API</li>
                                         <li class="icon solid fa-code">Python, Stream Data</li>
@@ -138,7 +138,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>PABX Asterisk & WhatsApp</h4>
-                                    <p>Central SIP com URAs, campanhas e implementação de fluxos Omnichannel via Meta API.</p>
+                                    <p>Implementação de central SIP com URAs, campanhas e inteligência para atendimento direcionado de chamadas, gestão de solução junto à Meta API de WhatsApp vinculado a DDRs setorizados, manutenção de agentes e de fluxos de atendimento.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-phone">SIP, Asterisk</li>
                                         <li class="icon brands fa-whatsapp">Meta API, Omnichanel</li>
@@ -148,7 +148,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>Segurança de Rede & Firewall</h4>
-                                    <p>Implementação de Cloudflare Tunnels e Captive Portal (OpnSense) integrado ao AD.</p>
+                                    <p>Implementação de Cloudflare Tunnels para segurança de publicações web, implementação de firewall para segurança e plataforma privada de captive portal (OpnSense) integrado ao AD.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-user-shield">Cloudflare, Docker</li>
                                         <li class="icon solid fa-network-wired">OpnSense, API</li>
@@ -158,7 +158,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>SafeVault & FAV</h4>
-                                    <p>Cofre de senhas e portal de favoritos setorizado com foco em conformidade LGPD.</p>
+                                    <p>Cofre de senhas e portal de favoritos setorizado com foco em conformidade LGPD com autenticação integrada ao AD.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-lock">SafeVault, PHP</li>
                                         <li class="icon solid fa-folder">MySQL, JS, LGPD</li>
@@ -176,7 +176,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>Cloud Storage & NVR Virtual</h4>
-                                    <p>Nextcloud para arquivos e Frigate para NVR com captura RTSP e máscaras de área.</p>
+                                    <p>Implementação de nuvem Nextcloud para armazenamento de arquivos e implementação NVR Frigate com captura RTSP, máscaras de área e sistema de notificação.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-cloud">Nextcloud, Docker</li>
                                         <li class="icon solid fa-video">Frigate, RTSP</li>
@@ -186,7 +186,7 @@
                             <article>
                                 <div class="inner">
                                     <h4>Streaming de Áudio & Vídeo</h4>
-                                    <p>Servidores Jellyfin (GPU Passthrough) e Icecast para audio marketing corporativo.</p>
+                                    <p>Implementação de servidores Jellyfin (GPU Passthrough) para central de multimídia privada e Implementação de servidor icecast para audio marketing corporativo.</p>
                                     <ul class="feature-icons">
                                         <li class="icon solid fa-film">Jellyfin, Codec</li>
                                         <li class="icon solid fa-broadcast-tower">Icecast, MP3</li>
