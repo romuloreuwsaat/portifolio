@@ -246,7 +246,7 @@
         <section id="footer"> 
             <div class="container"> 
                 <ul class="copyright"> 
-                    <li>&copy; Rômulo Reuwsaat. All rights reserved.</li>
+                    <li>&copy; Rômulo Reuwsaat. All rights reserved.</li> <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Fui útil? Pague um café!', '#72a4f2', 'S6S8PMDYA');kofiwidget2.draw();</script> 
                     <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>                          
                 </ul>                      
             </div>                  
@@ -290,7 +290,7 @@
           });
       });
     </script>
-	<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Fui útil? Page um café!', '#72a4f2', 'S6S8PMDYA');kofiwidget2.draw();</script> 
+	
 </body>
 </html>
 
