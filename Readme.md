@@ -290,6 +290,7 @@
           });
       });
     </script>
+	<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Fui útil? Page um café!', '#72a4f2', 'S6S8PMDYA');kofiwidget2.draw();</script> 
 </body>
 </html>
 
