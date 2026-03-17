@@ -23,7 +23,7 @@
             </nav>             
             <footer> 
                 <ul class="icons"> 
-                    <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li> 
+                    <li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li> 
                     <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> 
                 </ul>                 
             </footer>             
@@ -246,8 +246,8 @@
         <section id="footer"> 
             <div class="container"> 
                 <ul class="copyright"> 
-                    <li>&copy; Rômulo Reuwsaat. All rights reserved.</li> <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Fui útil? Pague um café!', '#72a4f2', 'S6S8PMDYA');kofiwidget2.draw();</script> 
-                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>                          
+                    <li>&copy; Rômulo Reuwsaat. All rights reserved.</li> 
+                    <li><script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Fui útil? Pague um café!', '#72a4f2', 'S6S8PMDYA');kofiwidget2.draw();</script></li>                          
                 </ul>                      
             </div>                  
         </section>              
