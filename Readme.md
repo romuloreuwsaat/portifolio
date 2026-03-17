@@ -155,6 +155,16 @@
                                     </ul>
                                 </div>
                             </article>
+							<article>
+                            <div class="inner">
+                                <h4>Mail Server & WebOffice Apps</h4>
+                                <p>Implementação de servidor de email, com filtros de conteúdo, white/blacklist, gestão de dominio(registros, chaves, autenticação com plataformas de segurança), antispam e aplicações web(calendário, editores de texto e planilhas) opensource.</p>
+                                <ul class="feature-icons">
+                                    <li class="icon solid fa-user-shield">DNS, Domains, Web</li>
+                                    <li class="icon solid fa-envelope">iRedMail, SMTP, IMAP, POP</li>
+                                </ul>
+                            </div>
+                        </article>
                             <article>
                                 <div class="inner">
                                     <h4>SafeVault & FAV</h4>
