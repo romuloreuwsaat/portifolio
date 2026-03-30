@@ -64,7 +64,7 @@
                                     <h4>Hypervisors</h4>
                                     <p>Instalação, manutenção e atualização de hypervisors em servidores em projetos de datacenters como ESXi(VMWare/Broadcom), Xen(Legado Citrix e Xenserver), KVM(Proxmox e RHEL), Type2(VirtualBox) e Hypver-V(Microsoft).</p>
                                     <ul class="feature-icons">
-                                        <li class="icon brands fa-server">Servers, Linux, Microsoft</li>
+                                        <li class="icon brands fa-microchip">Servers, Linux, Microsoft</li>
                                         <li class="icon solid fa-cubes">Hypervisors, KVM, ESXi, Type2, Xen</li>
                                     </ul>
                                 </div>
