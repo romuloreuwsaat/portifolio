@@ -38,7 +38,7 @@
                     </div>                     
                     <div class="container"> 
                         <header class="major"> 
-                            <h2>Portfólio</h2> 
+                            <h2>Portifólio</h2> 
                             <p>Exposição de competências técnicas através de casos de uso reais.</p> 
                         </header>                         
                         <p>Esta lista detalha projetos implementados para sanar necessidades críticas em diversas empresas, unindo monitoramento, alta disponibilidade e automação personalizada.</p> 
