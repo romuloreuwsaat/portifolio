@@ -9,7 +9,7 @@
         <section id="header"> 
             <header> <span class="image avatar"><img src="/images/avatar.jpg" alt=""/></span> 
                 <h1 id="logo"><a href="#">Rômulo Reuwsaat</a></h1> 
-                <p>Portfólio de projetos e experiências em infraestrutura de TI, automação e sistemas críticos.</p> 
+                <p>Portifólio de projetos e experiências em infraestrutura de TI, automação e sistemas críticos.</p> 
             </header>             
             <nav id="nav"> 
                 <ul> 
