@@ -27,7 +27,7 @@
         </nav>              
         <footer> 
             <ul class="icons"> 
-                <li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li> 
+                <li><a href="https://linkedin.com/in/romuloreuwsaat" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li> 
                 <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> 
             </ul>                   
         </footer>              
@@ -200,24 +200,24 @@
                 </div>
             </section>
 
- <section id="print">
-    <div class="container">
-        <h3>Printer Services</h3>
-        <div class="features">
-            <article>
-                <div class="inner">
-                    <h4>SAP + MS Active Directory Pool Integration</h4>
-                    <p>Integração de identificação de impressoras co-relacionando esturuta em AD para entrega de jobs.</p>
-                    <ul class="feature-icons">
-                        <li class="icon solid fa-print">CUPS</li>
-                        <li class="icon solid fa-sitemap">MS-Active Directory</li>
-                        <li class="icon solid fa-database">SAP 4 HANA & FIORI</li>
-                    </ul>
-                </div>
-            </article>
+     <section id="print">
+        <div class="container">
+            <h3>Printer Services</h3>
+            <div class="features">
+                <article>
+                    <div class="inner">
+                        <h4>SAP + MS Active Directory Pool Integration</h4>
+                        <p>Integração de identificação de impressoras co-relacionando esturuta em AD para entrega de jobs.</p>
+                        <ul class="feature-icons">
+                            <li class="icon solid fa-print">CUPS</li>
+                            <li class="icon solid fa-sitemap">MS-Active Directory</li>
+                            <li class="icon solid fa-database">SAP 4 HANA & FIORI</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
         </div>
-    </div>
-</section>       
+    </section>       
 
             <section id="contact"> 
                 <div class="container"> 
