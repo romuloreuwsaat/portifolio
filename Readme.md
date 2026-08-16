@@ -19,8 +19,9 @@
                 <li><a href="#one" class="active">Resumo</a></li>                       
                 <li><a href="#infrastructure">Infraestrutura & NOC</a></li>                       
                 <li><a href="#automation">Automação & IoT</a></li>                       
-                <li><a href="#telecom">Telecom & Segurança</a></li>                       
-                <li><a href="#media">Cloud & Media</a></li>                       
+                <li><a href="#telecom">Telecom & Segurança</a></li>
+                <li><a href="#media">Cloud & Media</a></li>  
+                <li><a href="#print">Integrações em Impressão</a></li> 
                 <li><a href="#contact">Contato</a></li>                       
             </ul>                   
         </nav>              
@@ -198,6 +199,25 @@
                     </div>
                 </div>
             </section>
+
+ <section id="print">
+    <div class="container">
+        <h3>Printer Services</h3>
+        <div class="features">
+            <article>
+                <div class="inner">
+                    <h4>SAP + MS Active Directory Pool Integration</h4>
+                    <p>Integração de identificação de impressoras co-relacionando esturuta em AD para entrega de jobs.</p>
+                    <ul class="feature-icons">
+                        <li class="icon solid fa-print">CUPS</li>
+                        <li class="icon solid fa-sitemap">MS-Active Directory</li>
+                        <li class="icon solid fa-database">SAP 4 HANA & FIORI</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>       
 
             <section id="contact"> 
                 <div class="container"> 
